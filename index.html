@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Honey Lemon</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <main>
+
+    <h1>Honey Lemon</h1>
+    <p>En Honey Lemon nos dedicamos a crear pasteles personalizados para cada ocasión. Utilizamos ingredientes naturales
+      y
+      de alta calidad, además de no usar conservadores para garantizar que cada pastel sea delicioso y único. </p>
+    <section id="banner">
+      <div class="carousel">
+        <img src="img/pastel1.jpg" class="active">
+        <img src="img/pastel2.jpg">
+        <img src="img/pastel3.jpg">
+      </div>
+    </section>
+    <section id="pedido">
+      <h2>Haz tu pedido</h2>
+      <form id="form-pedido" class="formulario">
+        <section id="forma">
+          <h3>Forma</h3>
+          <div class="opciones">
+            <!-- Aquí irían las imágenes de los pasteles -->
+            <label class="opcion">
+              <input type="radio" name="forma" value="corazon">
+              <img src="img/corazon.png" alt="Pastel en forma de corazón">
+              <span>Corazón</span>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="forma" value="circular">
+              <img src="img/circular.png" alt="Pastel circular">
+              <span>Circular</span>
+            </label>
+            <label class="opcion">
+              <input type="radio" name="forma" value="cuadrado">
+              <img src="img/cuadrado.png" alt="Pastel cuadrado">
+              <span>Cuadrado</span>
+            </label>
+          </div>
+          <!-- Aquí irían las imágenes de los pasteles -->
+        </section>
+        <section id="tamanos">
+          <h3>Tamaños</h3>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="tamano" value="individual">
+              Individual
+            </label>
+            <label class="opcion">
+              <input type="radio" name="tamano" value="chico">
+              Chico
+            </label>
+            <label class="opcion">
+              <input type="radio" name="tamano" value="mediano">
+              Mediano
+            </label>
+            <label class="opcion">
+              <input type="radio" name="tamano" value="grande">
+              Grande
+            </label>
+            <label class="opcion">
+              <input type="radio" name="tamano" value="gigante">
+              Gigante
+            </label>
+          </div>
+          <!-- Las porciones pueden variar dependiendo del tamaño de la rebanada y del método de corte. -->
+        </section>
+        <section id="sabores-bizcocho">
+          <h3>Sabores de bizcocho</h3>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="vainilla">
+              Vainilla
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="chocolate">
+              Chocolate
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="red-velvet">
+              Red velvet
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="pink-velvet">
+              Pink velvet
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="mantequilla">
+              Mantequilla
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="naranja">
+              Naranja
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="mandarina">
+              Mandarina
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="limon">
+              Limón
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="zanahoria">
+              Zanahoria
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="funffeti">
+              Funffeti
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="platanoo">
+              Plátano
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_bizcocho" value="lemon-blueberry">
+              Lemon blueberry
+            </label>
+          </div>
+          <!-- Los sabores y precios pueden variar dependiendo de la temporada y disponibilidad de los insumos. -->
+        </section>
+        <section id="sabores-relleno">
+          <h3>Rellenos</h3>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno" value="cream-cheese">
+              Cream cheese
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno" value="crema-vainilla">
+              Crema pastelera de vainilla
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno" value="crema-chocolate">
+              Crema pastelera de chocolate
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno" value="mermelada-fresa">
+              Mermelada de fresa
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno" value="mermelada-frutos-rojos">
+              Mermelada de frutos rojos
+            </label>
+          </div>
+          <!-- Los sabores y precios pueden variar dependiendo de la temporada y disponibilidad de los insumos. -->
+        </section>
+        <section id="relleno-especial">
+          <h3>Rellenos Especiales</h3>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno_especial" value="cookies-n-cream">
+              Cookies n cream
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno_especial" value="lemon-curd">
+              Lemon curd
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno_especial" value="ferrero">
+              Ferrero
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno_especial" value="nutella">
+              Nutella
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno_especial" value="dulce-de-leche">
+              Dulce de Leche
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno_especial" value="mix-nutella">
+              Mix de nutella (frambuesa, fresa, chocolate blanco y ferrero)
+            </label>
+            <label class="opcion">
+              <input type="radio" name="sabor_relleno_especial" value="mix-crema-montada">
+              Mix de crema montada de chocolate y mermelada de frutos rojos
+            </label>
+          </div>
+          <!-- Los sabores y precios pueden variar dependiendo de la temporada y disponibilidad de los insumos. -->
+        </section>
+        <section id="extras">
+          <h3>Extras</h3>
+          <div class="opciones">
+            <label class="opcion">
+              <input type="checkbox" name="extra" value="decoracion_personalizada">
+              Decoración personalizada
+            </label>
+            <label class="opcion">
+              <input type="checkbox" name="extra" value="vela">
+              Vela
+            </label>
+            <label class="opcion">
+              <input type="checkbox" name="extra" value="oblea_impresa">
+              Oblea impresa
+            </label>
+            <label class="opcion">
+              <input type="checkbox" name="extra" value="cake_tupper">
+              Cake-tupper
+            </label>
+          </div>
+        </section>
+        <button type="submit">Enviar pedido</button>
+      </form>
+    </section>
+
+
+    <section>
+      <h2>Información Extra</h2>
+      <p>Todos nuestros pasteles son elaborados desde 0, sin uso de pre-mezclas, conservadores o saborizantes, siempre
+        seleccionando cuidadosamente nuestros insumos.</p>
+      <p>Todos nuestros diseños son elaborados con nuestro betún de "Cream Cheese" a mano alzada, y, si la ocasión así
+        lo
+        requiere se emplean obleas comestibles o cake-tuppers.</p>
+      <p>No trabajamos con Fondant.</p>
+      <p>No copiamos diseño exactos de otras pastelerías, tomamos inspiración del diseño de tu agrado que junto a
+        nuestro
+        toque característico llegamos a un pastel único y especial para cada ocasión.</p>
+      <p>Una vez confirmado el pedido no se hacen cambios ni devoluciones.</p>
+    </section>
+    <script src="js/main.js"></script>
+
+    <footer>
+      <p>© 2024 Honey Lemon. Todos los derechos reservados.</p>
+    </footer>
+  </main>
+</body>
+
+</html>
