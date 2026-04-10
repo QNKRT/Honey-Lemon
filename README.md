@@ -18,7 +18,7 @@ El objetivo es construir una experiencia clara, visual y fácil de usar.
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5
-- CSS3 (próximamente Grid y Flexbox)
+- CSS3
 - JavaScript (en desarrollo)
 - Git & GitHub
 
@@ -40,7 +40,6 @@ Este proyecto forma parte de mi camino para convertirme en desarrollador full st
 🚧 En desarrollo
 
 Próximas mejoras:
-- Diseño con CSS Grid
 - Interactividad con JavaScript
 - Responsive design
 - Deploy en GitHub Pages
