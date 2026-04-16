@@ -1,9 +1,32 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-  background: #fffce3;
+h1{
+  font-size: 2.5rem;
+  color: #F6C914;
 }
 
+h2 {
+  font-size: 2rem;
+  color: #F6C914;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #F6D95F;
+  font-weight: semi-bold;
+}
+
+p{
+  font-size: 1.25rem;
+  color: #6B6B6B;
+  font-family: fredoka;
+  font-weight: medium;
+}
+
+body {
+  margin: 0;
+  font-family: 'fredoka',sans-serif;
+  background: #FAF4E4;
+}
 main {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -11,16 +34,27 @@ main {
   padding: 100px;
 }
 
+button {
+   font-family: fredoka;
+}
 #header {
   display: grid;
+  grid-template: 150px 1fr / 1fr;
+  gap: 16px;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  padding: 100px;
+  padding: 64px;
+  p{
+    justify-self: center;
+  }
+  img{
+    max-height: 150px;
+    justify-self: center;
+  }
 }
 
 .header-content {
-  max-width: 700px;
+  max-width: 80%;
   width: 100%;
   text-align: center;
 }
@@ -65,7 +99,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
   border-radius: 20px;
 }
@@ -92,7 +126,8 @@ main {
   background: #f4c542;
   border: none;
   border-radius: 8px;
-  font-size: 1rem;
+  font-family: fredoka;
+  font-size: 1.25rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -102,7 +137,9 @@ main {
   transform: translateY(-2px) scale(1.03);
 }
 
-.hero-content h2, .hero-content p,.hero-content .cta {
+.hero-content h2,
+.hero-content p,
+.hero-content .cta {
   opacity: 0;
   transform: translateY(30px);
   animation: fadeUp 1s ease forwards;
@@ -118,6 +155,7 @@ main {
     transform: translateY(0);
   }
 }
+
 .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -128,6 +166,7 @@ main {
   opacity: 1;
   transform: translateY(0);
 }
+
 /*carousel termina*/
 
 #pedido {
@@ -145,7 +184,8 @@ section:last-of-type {
   gap: 16px;
   margin: 0 auto;
 }
-#forma{
+
+#forma {
   grid-column: 1 / -1;
   text-align: center;
   margin-bottom: 1rem;
@@ -186,8 +226,8 @@ section:last-of-type {
   display: none;
 }
 
-.opcion input:checked + img,
-.opcion input:checked + span {
+.opcion input:checked+img,
+.opcion input:checked+span {
   outline: 3px solid #f4c542;
   border-radius: 10px;
 }
@@ -221,9 +261,9 @@ p {
 }
 
 #enviar-pedido {
-    display: flex;
-    center;
-    margin: 32px auto;
+  display: flex;
+  center;
+  margin: 32px auto;
   padding: 1rem 2rem;
   background: #f4c542;
   color: white;
@@ -234,16 +274,25 @@ p {
   justify-content: center;
 
 }
+
 #enviar-pedido:hover {
   background: #d9a631;
   transition: 0.3s;
 }
+
+section#Info-extra {
+  text-align: center;
+}
+
 footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding: 1rem;
   background: #f4c542;
   color: white;
   margin-top: 2rem;
+  p{
+    font-size: 1rem;
+  }
 }
